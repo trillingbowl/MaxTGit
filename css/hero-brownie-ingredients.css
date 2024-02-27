@@ -43,7 +43,7 @@ body {
 
 .hero h1 {
   font-size: 3em;  /*font size for header text */
-  margin-top: -20;  /* shrinks margin just above header */
+  margin-top: -10;  /* shrinks margin just above header */
   margin-bottom: 0.1em;  /* shrinks margin just below header */
 }
 
@@ -81,5 +81,4 @@ body {
 
 .hero-inner h3 {
   font-weight: 200;
-  color: lightblue;
-  }
+}
