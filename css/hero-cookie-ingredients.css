@@ -8,7 +8,7 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center; /* centers text horizontally */
-    text-align: center; /* centers text */
+    /* text-align: center; /* centers text */
     color: white; /*text is white so that it is visible */
     align-items: center; /*centers text in the middle of the page, i.e., centers text vertically */
     /* align-items: flex-start; COMMENT starts text at top of flex box */
@@ -20,6 +20,7 @@ body {
     background-repeat: no-repeat; /* stops image from tiling */
     background-attachment: fixed; /* makes the background stay in the same spot as you scroll */
     position: relative;
+    line-height: 180%;
   }
 
 /* code if you want to use different image on iphones held vertically (using the same image here) */
@@ -53,7 +54,7 @@ body {
 /* CSS styling for S'more Cookie button */
 .hero .btn-homepage {
   display: block;
-  width: 65px;
+  width: 80px;
   padding: 0.5em; /* adds padding around button text */
   margin-top: -50px; /* margin moves button up over cookie */
   margin-left: auto; /*pushes button to the right, just over the cookie */
@@ -64,7 +65,7 @@ body {
   /* button font properties */
   color: white;
   text-decoration: none;
-  font-size: 75%;
+  font-size: 80%;
   font-weight:bold;
 
   /* border styles */
