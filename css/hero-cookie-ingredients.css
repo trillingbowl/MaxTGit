@@ -35,7 +35,7 @@ body {
 /* code if you want to use a different image on devices in landscape mode - height greater than width (uses same image here) */
 @media (orientation: portrait){
   .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("./images/smore-ingredients1.png");
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('./images/smore-ingredients1.png');
     z-index:0;
    }
 }
