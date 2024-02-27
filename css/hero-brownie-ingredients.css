@@ -1,0 +1,85 @@
+body {
+      margin:0;
+      font-family: sans-serif;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* centers text horizontally */
+    text-align: center; /* centers text */
+    color: white; /*text is white so that it is visible */
+    align-items: center; /*centers text in the middle of the page, i.e., centers text vertically */
+    /* align-items: flex-start; COMMENT starts text at top of flex box */
+    
+    /*background image styles */
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.96)),url('./images/smore-ingredients2.jpg'); /* background image */
+    background-size: cover; /* covers the full page */
+    background-position: center center; /* positions image at center of screen */
+    background-repeat: no-repeat; /* stops image from tiling */
+    background-attachment: fixed; /* makes the background stay in the same spot as you scroll */
+    position: relative;
+  }
+
+/* code if you want to use different image on iphones held vertically (using the same image here) */
+@media (max-width: 450px){
+  .hero {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('./images/smore-ingredients2.jpg');
+    z-index:0;
+  }
+}
+
+
+/* code if you want to use a different image on devices in landscape mode - height greater than width (uses same image here) */
+@media (orientation: portrait){
+  .hero {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("./images/smore-ingreadients2.jpg");
+    z-index:0;
+   }
+}
+
+
+
+.hero h1 {
+  font-size: 3em;  /*font size for header text */
+  margin-top: -20;  /* shrinks margin just above header */
+  margin-bottom: 0.1em;  /* shrinks margin just below header */
+}
+
+
+
+
+/* CSS styling for S'more Cookie button */
+.hero .btn-homepage {
+  display: block;
+  width: 65px;
+  padding: 0.5em; /* adds padding around button text */
+  margin-top: -50px; /* margin moves button up over cookie */
+  margin-left: auto; /*pushes button to the right, just over the cookie */
+  margin-right: auto;
+  position: relative;
+  
+  
+  /* button font properties */
+  color: white;
+  text-decoration: none;
+  font-size: 75%;
+  font-weight:bold;
+
+  /* border styles */
+  border: 1px solid white; /* button border color */
+  border-radius: 20px; /*rounded edges around button */
+
+  /*button background color and opacity */
+  background-color: royalblue;
+}
+
+.hero-inner h2 {
+    font-weight: 300;
+}
+
+.hero-inner h3 {
+  font-weight: 200;
+  color: lightblue;
+  }
